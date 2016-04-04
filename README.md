@@ -1,7 +1,14 @@
 ##Insight Data Engineering - Coding Challenge Explaination - by Ling Ding
 =======================================================================
 
-### External Java library needed to parse Json input file
+### How to run the test
+
+   * cd ./insight_testsuite
+   * source run_tests.sh
+
+     The three sets of test will run and print out the test result.
+
+### External Java library needed to parse Json input file at ./lib/json-simple-1.1.1.jar
    
    [http://www.java2s.com/Code/JarDownload/json-simple/json-simple-1.1.1.jar.zip]
 
@@ -81,7 +88,7 @@
 
    3. process tweet line by line to avoid big memory usage of storing the entire tweets download file.
 
-### Unit test
+### Unit test, testbench is using Junit at ./testbench/TestBench.java
 
 Other than insight provided cases, some other conditions has been manually added and verified:
 
